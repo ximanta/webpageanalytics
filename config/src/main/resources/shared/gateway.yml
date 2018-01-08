@@ -1,0 +1,13 @@
+zuul:
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+
+  routes:
+    metadataextractor:
+        path: /metadataextractor/**
+        serviceId: metadataextractor
+        stripPrefix: false
+        sensitiveHeaders:
+

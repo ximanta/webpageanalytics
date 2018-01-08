@@ -1,0 +1,9 @@
+server:
+ port: 8099
+# MongoDB configuration
+#spring:
+# data:
+#  mongodb:
+#    username: admin
+#    password: admin
+#    database: wpanalyser
